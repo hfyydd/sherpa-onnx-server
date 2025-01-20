@@ -62,20 +62,9 @@ const config = {
 
 ## API 接口
 
-### 1. 健康检查
 
-```
-GET /
-```
 
-响应示例：
-```json
-{
-  "hello": "world"
-}
-```
-
-### 2. 语音识别
+### 语音识别
 
 ```
 POST /asr
@@ -108,7 +97,7 @@ Content-Type: multipart/form-data
 
 ## 使用示例
 
-使用 curl 发送请求：
+发送请求：
 
 ```typescript
 import { NextResponse } from 'next/server';
